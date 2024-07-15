@@ -1,0 +1,22 @@
+﻿CREATE DATABASE messManagementSystemDb;
+
+USE messManagementSystemDb;
+
+CREATE TABLE Managers (
+    Id INT PRIMARY KEY IDENTITY(1,1), 
+    FullName NVARCHAR(100) NOT NULL,
+    PhoneNo NVARCHAR(11) NOT NULL,
+    NidNo NVARCHAR(10) NOT NULL,
+    Email NVARCHAR(100) NOT NULL,
+    Password NVARCHAR(100) NOT NULL,
+);
+
+CREATE TABLE Users (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    FullName NVARCHAR(100) NOT NULL,
+    PhoneNo NVARCHAR(15) NOT NULL,
+    NidNo NVARCHAR(20) NOT NULL,
+    Email NVARCHAR(100) NOT NULL,
+    Password NVARCHAR(100) NOT NULL
+);
+

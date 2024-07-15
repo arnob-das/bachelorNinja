@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\arnob\\source\\repos\\messManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DF0A4716-E7E0-4794-9EFA-537C498D1CD6}|messManagement.csproj|c:\\users\\arnob\\source\\repos\\messmanagement\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF0A4716-E7E0-4794-9EFA-537C498D1CD6}|messManagement.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF0A4716-E7E0-4794-9EFA-537C498D1CD6}|messManagement.csproj|C:\\Users\\arnob\\source\\repos\\messManagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF0A4716-E7E0-4794-9EFA-537C498D1CD6}|messManagement.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF0A4716-E7E0-4794-9EFA-537C498D1CD6}|messManagement.csproj|C:\\Users\\arnob\\source\\repos\\messManagement\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF0A4716-E7E0-4794-9EFA-537C498D1CD6}|messManagement.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF0A4716-E7E0-4794-9EFA-537C498D1CD6}|messManagement.csproj|C:\\Users\\arnob\\source\\repos\\messManagement\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF0A4716-E7E0-4794-9EFA-537C498D1CD6}|messManagement.csproj|solutionrelative:controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF0A4716-E7E0-4794-9EFA-537C498D1CD6}|messManagement.csproj|C:\\Users\\arnob\\source\\repos\\messManagement\\views\\managerprofile\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF0A4716-E7E0-4794-9EFA-537C498D1CD6}|messManagement.csproj|solutionrelative:views\\managerprofile\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF0A4716-E7E0-4794-9EFA-537C498D1CD6}|messManagement.csproj|C:\\Users\\arnob\\source\\repos\\messManagement\\views\\userprofile\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF0A4716-E7E0-4794-9EFA-537C498D1CD6}|messManagement.csproj|solutionrelative:views\\userprofile\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF0A4716-E7E0-4794-9EFA-537C498D1CD6}|messManagement.csproj|C:\\Users\\arnob\\source\\repos\\messManagement\\views\\userprofile\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF0A4716-E7E0-4794-9EFA-537C498D1CD6}|messManagement.csproj|solutionrelative:views\\userprofile\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF0A4716-E7E0-4794-9EFA-537C498D1CD6}|messManagement.csproj|C:\\Users\\arnob\\source\\repos\\messManagement\\views\\managerprofile\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DF0A4716-E7E0-4794-9EFA-537C498D1CD6}|messManagement.csproj|solutionrelative:views\\managerprofile\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\arnob\\source\\repos\\messManagement\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\arnob\\source\\repos\\messManagement\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAAkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-10T12:15:31.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\arnob\\source\\repos\\messManagement\\Views\\UserProfile\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\UserProfile\\Details.cshtml",
+              "ToolTip": "C:\\Users\\arnob\\source\\repos\\messManagement\\Views\\UserProfile\\Details.cshtml",
+              "RelativeToolTip": "Views\\UserProfile\\Details.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADIAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-10T12:05:43.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\arnob\\source\\repos\\messManagement\\Views\\ManagerProfile\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\ManagerProfile\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\arnob\\source\\repos\\messManagement\\Views\\ManagerProfile\\Edit.cshtml",
+              "RelativeToolTip": "Views\\ManagerProfile\\Edit.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-10T12:04:30.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\arnob\\source\\repos\\messManagement\\Views\\ManagerProfile\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\ManagerProfile\\Details.cshtml",
+              "ToolTip": "C:\\Users\\arnob\\source\\repos\\messManagement\\Views\\ManagerProfile\\Details.cshtml",
+              "RelativeToolTip": "Views\\ManagerProfile\\Details.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAADIAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-10T12:03:34.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\arnob\\source\\repos\\messManagement\\Controllers\\RegisterController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RegisterController.cs",
+              "ToolTip": "C:\\Users\\arnob\\source\\repos\\messManagement\\Controllers\\RegisterController.cs",
+              "RelativeToolTip": "Controllers\\RegisterController.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAwB8AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T12:01:57.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\arnob\\source\\repos\\messManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\arnob\\source\\repos\\messManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-10T11:50:14.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\arnob\\source\\repos\\messManagement\\Views\\UserProfile\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\UserProfile\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\arnob\\source\\repos\\messManagement\\Views\\UserProfile\\Edit.cshtml",
+              "RelativeToolTip": "Views\\UserProfile\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-10T12:05:54.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\arnob\\source\\repos\\messManagement\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\arnob\\source\\repos\\messManagement\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAgwBYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T11:50:39.533Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
