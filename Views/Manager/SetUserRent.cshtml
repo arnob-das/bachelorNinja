@@ -1,0 +1,47 @@
+﻿@model messManagement.Models.SetUserRentViewModel
+
+@{
+    ViewBag.Title = "Set Room Rent for @Model.FullName";
+}
+
+<div class="container">
+    <h2 class="mb-4">Set Room Rent for @Model.FullName</h2>
+
+    @using (Html.BeginForm("SetUserRent", "Manager", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="row">
+            <div class="col-md-5 mb-3">
+                <label for="FullName">Full Name</label>
+                <input type="text" class="form-control" id="FullName" value="@Model.FullName" disabled />
+            </div>
+
+            <div class="col-md-5 mb-3">
+                <label for="Rent">Room Rent</label>
+                @Html.TextBoxFor(m => m.Rent, new { @class = "form-control", @placeholder = "Enter room rent", @id = "Rent" })
+                @Html.ValidationMessageFor(m => m.Rent, "", new { @class = "text-danger" })
+            </div>
+
+            @Html.HiddenFor(m => m.UserId)
+
+            <div class="col-md-2 d-flex align-items-end">
+                <button type="submit" class="btn btn-primary w-100">Submit</button>
+            </div>
+        </div>
+    }
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success mt-3">
+            @TempData["SuccessMessage"]
+        </div>
+    }
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger mt-3">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+</div>
