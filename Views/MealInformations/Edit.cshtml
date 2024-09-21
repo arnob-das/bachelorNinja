@@ -1,0 +1,52 @@
+﻿@model messManagement.Models.MealInformation
+
+@{
+    ViewBag.Title = "Edit Meal";
+}
+
+<h2>Edit Meal</h2>
+
+@using (Html.BeginForm("Edit", "MealInformations", FormMethod.Post, new { @class = "form-horizontal" }))
+{
+    @Html.AntiForgeryToken()
+
+    @Html.HiddenFor(model => model.Id)
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Day, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(model => model.Day, new { @class = "form-control", type = "number", min = "1", max = "31" })
+            @Html.ValidationMessageFor(model => model.Day)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Month, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(model => model.Month, new { @class = "form-control", type = "number", min = "1", max = "12" })
+            @Html.ValidationMessageFor(model => model.Month)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Year, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(model => model.Year, new { @class = "form-control", type = "number" })
+            @Html.ValidationMessageFor(model => model.Year)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.MealCount, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(model => model.MealCount, new { @class = "form-control", type = "number", min = "0" })
+            @Html.ValidationMessageFor(model => model.MealCount)
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Save" class="btn btn-primary" />
+        </div>
+    </div>
+}
