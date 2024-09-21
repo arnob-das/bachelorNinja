@@ -1,0 +1,70 @@
+﻿@model IEnumerable<messManagement.Models.GroceryCost>
+
+@{
+    ViewBag.Title = "Grocery Costs";
+}
+
+<h2>Grocery Costs for Mess @ViewBag.MessName</h2>
+
+<!--add meal -->
+
+<button class="btn btn-primary mt-2 mb-2">@Html.ActionLink("Add Grocery Cost", "Create", "GroceryCosts", new { area = "" }, new { @class = "dropdown-item" })</button>
+
+
+<!-- Filter Section -->
+<div class="row mb-4">
+    <div class="col-md-12">
+        @using (Html.BeginForm("Index", "GroceryCosts", FormMethod.Get, new { @class = "form-inline" }))
+        {
+            <div class="form-row w-100">
+                <div class="form-group col-md-4">
+                    <label for="month" class="mr-2">Month:</label>
+                    @Html.DropDownList("month", new SelectList(Enumerable.Range(1, 12).Select(i => new { Value = i, Text = new DateTime(1, i, 1).ToString("MMMM") }), "Value", "Text", ViewBag.Month), new { @class = "form-control" })
+                </div>
+
+                <div class="form-group col-md-4 mt-2">
+                    <label for="year" class="mr-2">Year:</label>
+                    @Html.DropDownList("year", new SelectList(Enumerable.Range(2020, DateTime.Now.Year - 2019), ViewBag.Year), new { @class = "form-control" })
+                </div>
+
+                <div class="form-group col-md-2 align-self-end">
+                    <button type="submit" class="btn btn-primary btn-block mt-2">Filter</button>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+
+<!-- Grocery Cost Table -->
+<table class="table table-bordered table-striped mt-3">
+    <thead>
+        <tr>
+            <th>Day</th>
+            <th>Month</th>
+            <th>Year</th>
+            <th>Amount</th>
+            <th>User</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var cost in Model)
+        {
+            <tr>
+                <td>@cost.Day</td>
+                <td>@cost.Month</td>
+                <td>@cost.Year</td>
+                <td>@cost.Amount</td>
+                <td>@cost.User.FullName</td>
+                <td>
+                    @if (Session["role"] != null && (Session["role"].ToString() == "manager" || cost.UserId == Convert.ToInt32(Session["UserId"])))
+                    {
+                        <a href="@Url.Action("Edit", new { id = cost.Id })" class="btn btn-sm btn-warning">Edit</a>
+                        <a href="@Url.Action("Delete", new { id = cost.Id })" class="btn btn-sm btn-danger">Delete</a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
