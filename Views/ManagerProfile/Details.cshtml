@@ -1,0 +1,43 @@
+﻿@model messManagement.Models.Manager
+
+@{
+    ViewBag.Title = "Manager Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="text-center">
+                <!-- Profile Picture -->
+                <div class="mb-4">
+                    <img src="~/img/undraw_profile.svg" class="rounded-circle shadow-sm" alt="Profile Picture" width="150" height="150">
+                </div>
+                <!-- Manager Information -->
+                <h2 class="fw-bold">@Model.FullName</h2>
+                <div class="row mt-4">
+                    <div class="col-md-6 text-start mb-3">
+                        <p class="mb-1 text-muted"><strong>Phone:</strong></p>
+                        <p>@Model.PhoneNo</p>
+                    </div>
+                    <div class="col-md-6 text-start mb-3">
+                        <p class="mb-1 text-muted"><strong>NID:</strong></p>
+                        <p>@Model.NidNo</p>
+                    </div>
+                    <div class="col-md-6 text-start mb-3">
+                        <p class="mb-1 text-muted"><strong>Email:</strong></p>
+                        <p>@Model.Email</p>
+                    </div>
+                    <div class="col-md-6 text-start mb-3">
+                        <p class="mb-1 text-muted"><strong>Manager ID:</strong></p>
+                        <p>@Model.Id</p>
+                    </div>
+                </div>
+                <!-- Edit Button -->
+                <div class="mt-4">
+                    <a href="@Url.Action("Edit", new { id = Model.Id })" class="btn btn-primary px-4">Edit Profile</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
